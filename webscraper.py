@@ -18,7 +18,7 @@ print ('found all')
 driver = webdriver.Chrome()
 driver.get(url)
 
-wait = WebDriverWait(driver, 10)
+time.sleep(15)
 
 elem = driver.find_element_by_class_name('form_group')
 
