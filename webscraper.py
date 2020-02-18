@@ -23,10 +23,10 @@ time.sleep(15)
 elem = driver.find_element_by_class_name('form_group')
 
 
-#button = driver.find_element_by_class_name('form-group')
-#button.click()
+button = driver.find_element_by_class_name('form-group')
+button.click()
 
-''' This prints out the info on the starting page. No info of other sizes
+This prints out the info on the starting page. No info of other sizes
 sale = soup.select('.last-sale-block')
 
 for sale in soup.select('.last-sale-block'):
@@ -44,5 +44,5 @@ bid = soup.select('.ask')
 for bid in soup.select('.ask'):
 
 	print bid.text
-'''
-# print soup
+
+print soup
